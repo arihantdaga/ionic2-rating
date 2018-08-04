@@ -1,10 +1,10 @@
 import { async, TestBed, ComponentFixture, ComponentFixtureAutoDetect } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
-import { IonicModule } from 'ionic-angular';
-import { } from 'jasmine';
+ import { } from 'jasmine';
 
 import { Ionic2Rating } from './ionic2-rating';
+import {IonicModule} from "@ionic/angular";
 
 describe('Ionic2Rating', () => {
   let component: Ionic2Rating;
