@@ -17,33 +17,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrucz/ionic2-rating.git"
+    "url": "git+https://github.com/BahgatMashaly/ionic2-rating.git"
   },
   "keywords": [
     "ionic2",
     "angular2"
   ],
-  "author": "andrucz",
+  "author": "Bahgat",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrucz/ionic2-rating/issues"
+    "url": "https://github.com/BahgatMashaly/ionic2-rating/issues"
   },
-  "homepage": "https://github.com/andrucz/ionic2-rating",
+  "homepage": "https://github.com/BahgatMashaly/ionic2-rating/ionic2-rating",
   "devDependencies": {
-    "@angular/common": "2.2.1",
-    "@angular/compiler": "2.2.1",
-    "@angular/compiler-cli": "2.2.1",
-    "@angular/core": "2.2.1",
-    "@angular/forms": "2.2.1",
-    "@angular/http": "2.2.1",
-    "@angular/platform-browser": "2.2.1",
-    "@angular/platform-browser-dynamic": "2.2.1",
-    "@angular/platform-server": "2.2.1",
-    "@types/jasmine": "^2.8.2",
-    "@types/node": "^8.0.56",
-    "angular2-template-loader": "^0.6.2",
+    "@angular/common": ">=12.0.0",
+    "@angular/core": ">=12.0.0",
+    "@angular/forms": ">=12.0.0",
+    "@angular/platform-browser": ">=12.0.0",
+    "@angular/platform-browser-dynamic": ">=12.0.0",
+    "zone.js": "~0.11.4",
+    "@angular/platform-server": ">=12.0.0",
     "html-loader": "^0.5.1",
-    "ionic-angular": "2.0.0",
+    "@ionic/angular": "6.0.0",
     "istanbul-instrumenter-loader": "^3.0.0",
     "jasmine": "^2.8.0",
     "jasmine-spec-reporter": "^4.2.1",
@@ -56,11 +51,8 @@
     "karma-webpack": "^2.0.6",
     "null-loader": "^0.1.1",
     "protractor": "^5.2.0",
-    "rxjs": "5.0.0-beta.12",
     "ts-loader": "^3.2.0",
-    "ts-node": "^3.3.0",
-    "typescript": "2.1.5",
-    "webpack": "^3.10.0",
-    "zone.js": "0.6.26"
+    "typescript": "~4.4.4",
+    "ts-node": "~8.3.0"
   }
 }

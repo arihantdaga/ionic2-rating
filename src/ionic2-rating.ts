@@ -1,4 +1,4 @@
-import { Component, forwardRef, Input, Provider } from '@angular/core';
+import {Component, forwardRef, Input, ViewEncapsulation} from '@angular/core';
 import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
 
 const noop = () => {};
@@ -22,6 +22,7 @@ export const RATING_CONTROL_VALUE_ACCESSOR: Provider = {
       font-size: 30px;
     }
   `],
+  encapsulation: ViewEncapsulation.None,
   template: `
     <ul class="rating" (keydown)="onKeyDown($event)">
       <li *ngFor="let starIndex of starIndexes" tappable (click)="rate(starIndex + 1)">

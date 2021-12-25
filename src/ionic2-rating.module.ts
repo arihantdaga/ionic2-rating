@@ -1,8 +1,8 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IonicModule } from 'ionic-angular';
+import {Ionic2Rating} from "./ionic2-rating";
+import {IonicModule} from "@ionic/angular";
 
-import { Ionic2Rating } from './ionic2-rating';
 
 @NgModule({
   declarations: [
