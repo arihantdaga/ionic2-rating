@@ -1,4 +1,4 @@
-import {Component, forwardRef, Input, ViewEncapsulation} from '@angular/core';
+import {Component, forwardRef, Input, Provider, ViewEncapsulation} from '@angular/core';
 import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
 
 const noop = () => {};
